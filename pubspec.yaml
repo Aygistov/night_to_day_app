@@ -1,0 +1,28 @@
+name: night_to_day
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+2
+  camera_macos: ^0.0.9
+  permission_handler: ^11.3.1
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.12.1
+  image: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/night_vision_optimized.tflite
